@@ -1,6 +1,7 @@
 const logItems = function (array) {
   for (let i = 1; i < array.length; i += 1) {
-    console.log("Logging clients: ", clients[i]);
+    const massage = `${i} - ${array[i]}`;
+    console.log(massage);
   }
 };
 

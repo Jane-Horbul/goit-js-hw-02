@@ -30,6 +30,7 @@ function addLogin(allLogins, login) {
 }
 
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
+
 console.log(logins);
 
 console.log(addLogin(logins, "Ajax"));
